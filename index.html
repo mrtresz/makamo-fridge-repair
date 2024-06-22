@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Makamo's Fridge Repair</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="navigation">
+        <div class="logo"><img src="./images/Makamo.svg" alt="" /></div>
+        <ul class="list">
+          <li class="list-item"><a href="#">Home</a></li>
+          <li class="list-item"><a href="#">About</a></li>
+          <li class="list-item"><a href="#">Services</a></li>
+          <li class="list-item"><a href="#">Gallery</a></li>
+          <li class="list-item"><a href="#">FAQ</a></li>
+          <li class="list-item"><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <hr />
+    </header>
+
+    <main>
+      <div class="scroll-bar">
+        <div class="top-scroll-bar">
+          <img
+            src="./images/logos/pngwing.com.png"
+            alt=""
+            class="scroll-item"
+          />
+          <img src="./images/logos/bosch-logo.png" alt="" class="scroll-item" />
+          <img src="./images/logos/defy-logo.png" alt="" class="scroll-item" />
+          <img
+            src="./images/logos/kelvinator-logo.png"
+            alt=""
+            class="scroll-item"
+          />
+          <img src="./images/logos/kic-logo.png" alt="" class="scroll-item" />
+          <img src="./images/logos/lg-logo.png" alt="" class="scroll-item" />
+          <img
+            src="./images/logos/samsung-logo.png"
+            alt=""
+            class="scroll-item"
+          />
+          <img
+            src="./images/logos/siemens-logo.png"
+            alt=""
+            class="scroll-item"
+          />
+          <img src="./images/logos/smeg-logo.png" alt="" class="scroll-item" />
+          <img
+            src="./images/logos/whirlpool-logo.png"
+            alt=""
+            class="scroll-item"
+          />
+        </div>
+        <div class="top-scroll-bar">
+          <img
+            src="./images/logos/pngwing.com.png"
+            alt=""
+            class="scroll-item"
+          />
+          <img src="./images/logos/bosch-logo.png" alt="" class="scroll-item" />
+          <img src="./images/logos/defy-logo.png" alt="" class="scroll-item" />
+          <img
+            src="./images/logos/kelvinator-logo.png"
+            alt=""
+            class="scroll-item"
+          />
+          <img src="./images/logos/kic-logo.png" alt="" class="scroll-item" />
+          <img src="./images/logos/lg-logo.png" alt="" class="scroll-item" />
+          <img
+            src="./images/logos/samsung-logo.png"
+            alt=""
+            class="scroll-item"
+          />
+          <img
+            src="./images/logos/siemens-logo.png"
+            alt=""
+            class="scroll-item"
+          />
+          <img src="./images/logos/smeg-logo.png" alt="" class="scroll-item" />
+          <img
+            src="./images/logos/whirlpool-logo.png"
+            alt=""
+            class="scroll-item"
+          />
+        </div>
+      </div>
+
+      <!-- slider -->
+
+      <div class="hero">
+        <div class="content">
+          <div class="headline-container">
+            <h1 class="headline">
+              Makamo's Fridge Repair: Your Trusted Expert in Refrigerator
+              Repairs
+            </h1>
+          </div>
+
+          <p class="subline">
+            Fast, Reliable, and Affordable Repairs for All Major Brands
+          </p>
+
+          <button class="make-a-quote">Make A Quote</button>
+        </div>
+      </div>
+
+      <!-- Services -->
+      <hr />
+      <hr />
+      <div class="services">
+        <h2 class="services-heading">Services</h2>
+        <div class="lists">
+          <div class="repair-services">
+            <h3>Repair Services</h3>
+            <ul>
+              <li>Compressor Replacement</li>
+              <li>Themorstat Repair or Replacement</li>
+              <li>Refrigerant Recharging</li>
+              <li>Evaporator Coil Repair</li>
+              <li>Fan Motor Repair</li>
+              <li>Water Leak Repair</li>
+            </ul>
+          </div>
+          <div class="maintenance-and-installation-services">
+            <h3>Maintenance and Installation Services</h3>
+            <ul>
+              <li>Defrost Timer Replacement</li>
+              <li>Ice Maker Repair and Installation</li>
+              <li>Door Seal Replacement</li>
+              <li>Temperature Adjustment and Calibration</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- make -->
+      <div class="section">
+        <div class="quote-form-container">
+          <h2>Request a Quotation</h2>
+          <form class="quote-form" action="" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required />
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required />
+
+            <label for="model">Refrigerator Model:</label>
+            <input type="text" id="model" name="model" required />
+
+            <label for="service">Select Service:</label>
+            <select id="service" name="service" required>
+              <option value="">Choose a service</option>
+              <option value="compressor_replacement">
+                Compressor Replacement
+              </option>
+              <option value="thermostat_repair">
+                Thermostat Repair and Replacement
+              </option>
+              <option value="refrigerant_recharging">
+                Refrigerant Recharging
+              </option>
+              <option value="evaporator_coil_repair">
+                Evaporator Coil Repair
+              </option>
+              <option value="fan_motor_repair">Fan Motor Repair</option>
+              <option value="defrost_timer_replacement">
+                Defrost Timer Replacement
+              </option>
+              <option value="ice_maker_repair">
+                Ice Maker Repair and Installation
+              </option>
+              <option value="door_seal_replacement">
+                Door Seal Replacement
+              </option>
+              <option value="water_leak_repair">Water Leak Repair</option>
+              <option value="temperature_adjustment">
+                Temperature Adjustment and Calibration
+              </option>
+            </select>
+
+            <label for="issue">Describe the issue:</label>
+            <textarea id="issue" name="issue" rows="4" required></textarea>
+
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+
+        <div class="remarks-section">
+          <h2>Why Choose Us?</h2>
+          <ul>
+            <li>
+              Prompt Service: Our team will respond to your request within 24
+              hours.
+            </li>
+            <li>
+              Expert Technicians: All repairs are conducted by certified and
+              experienced technicians.
+            </li>
+            <li>
+              Guaranteed Satisfaction: We ensure top-quality service and
+              customer satisfaction.
+            </li>
+            <li>
+              Affordable Rates: Competitive pricing for all services without
+              compromising on quality.
+            </li>
+            <li>
+              Wide Coverage: Servicing all major refrigerator brands and models.
+            </li>
+            <li>
+              Flexible Scheduling: Book your repair at a time that suits you
+              best.
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <footer class="footer">
+        <div class="footer-container">
+          <div class="footer-column">
+            <h3>About Us</h3>
+            <p>
+              Makamo's Fridge Repair is your trusted expert in refrigerator
+              repairs. We offer fast, reliable, and affordable services for all
+              major brands.
+            </p>
+          </div>
+          <div class="footer-column">
+            <h3>Contact Information</h3>
+            <ul>
+              <li>Phone: 071 364 9474</li>
+              <li>Email: info@makamosfridgerepair.com</li>
+              <li>Address: 123 Repair St, Fixit City, 10001</li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Gallery</a></li>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h3>Follow Us</h3>
+            <div class="social-links">
+              <a href="#"
+                ><img src="./images/icons/communication.png" alt="Facebook"
+              /></a>
+              <a href="#"
+                ><img src="./images/icons/twitter.png" alt="Twitter"
+              /></a>
+              <a href="#"
+                ><img src="./images/icons/instagram.png" alt="Instagram"
+              /></a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2024 Makamo's Fridge Repair. All Rights Reserved.</p>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
